@@ -1,0 +1,48 @@
+# http://git-scm.com/docs/gitignore
+
+# sublime and other ide
+.idea/
+.project
+*.sublime-*
+.vscode
+
+# logs and cache
+/logs/
+*.log
+npm-debug.log*
+error_log
+.sass-cache
+.cache
+.php_cs.cache
+
+# OS generated files
+[Tt]humbs.db
+ehthumbs.db
+*~
+.*~
+._*
+*.bak
+*.sw[a-p]
+
+# Recycle bin folder used by different os
+.Trash-*
+$RECYCLE.BIN/
+
+# Windows shortcuts
+*.lnk
+
+# Folder config file
+[Dd]esktop.ini
+.DS_Store
+*.DS_Store
+.Spotlight-V100
+
+# node packages
+node_modules/
+
+# composer
+/vendor/
+composer.phar
+
+# Security tokens
+.env
