@@ -12,6 +12,7 @@
   outline: none;
   border: none;
   z-index: 99;
+  padding: 0;
 }
 
 .lazy-intercom-btn:focus {
@@ -19,6 +20,6 @@
 }
 
 .lazy-intercom-btn svg {
-  height: 50%;
+  height: 60%;
   font: initial;
 }
